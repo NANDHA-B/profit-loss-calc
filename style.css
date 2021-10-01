@@ -1,0 +1,57 @@
+body{
+    text-align: center;
+    background-color: rgb(195, 236, 195);
+}
+label{
+    display:grid;
+    padding: 12px;
+    font-size: x-large;
+    font-family:cursive;
+}
+input{
+    height: 50px;
+    width: 8cm;
+    font-size: x-large;
+    font-family: monospace;
+    border-radius:3mm;
+    background-color: rgb(203, 235, 235);
+    color: rgb(20, 20, 18);
+    outline:#fff;
+    padding-left: 5mm;
+}
+button{
+    padding: 5px;
+    height: 50px;
+    width: 5cm;  
+    background-color: rgb(204, 181, 226);
+    border-radius:5mm;
+    font-size: 8mm;
+    
+}
+button:hover{
+    box-shadow:0 0 5px 0 rgb(152, 101, 199);
+}
+div{
+    padding: top 1px;;
+    height: 50px;
+    font-size:xx-large;
+}
+footer{
+   
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    
+}
+footer p{
+    font-size: large;
+    text-align: center;
+}
+li {
+    display: inline;
+}
+img{
+    width: 40px;
+    padding: 0.2rem;
+}
